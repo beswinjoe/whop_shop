@@ -3,219 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community by Beswinjoe | Thoughtful Community Strategy</title>
-    <meta name="description" content="We help online communities improve their structure, engagement, and growth through thoughtful audits and practical strategy.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>BESWIN — Digital Products for Discord & Communities</title>
+    <meta name="description" content="Digital resources, templates, and tools to build better online communities.">
+    <meta property="og:title" content="BESWIN — Digital Products for Discord & Communities">
+    <meta property="og:description" content="Everything you need to build a better Discord.">
+    <meta name="theme-color" content="#ffffff">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <div class="container nav-container">
-            <div class="logo-group">
-                <span class="logo">COMMUNITY</span>
-                <span class="logo-sub">by Beswinjoe</span>
-            </div>
+    <!-- 1. NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo brand-name">BESWIN</a>
             <nav class="nav-links">
-                <a href="#services">Services</a>
-                <a href="#how-it-works">How It Works</a>
+                <a href="#shop">Shop</a>
+                <a href="#whats-inside">What's Inside</a>
+                <a href="#discord">Discord</a>
                 <a href="#about">About</a>
             </nav>
-            <a href="#featured" class="btn btn-primary">Get Started</a>
+            <div class="nav-right">
+                <a href="#" class="btn btn-primary whop-cta" data-product-price-cta>Get the $10 Pack &rarr;</a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 12h18M3 6h18M3 18h18"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-nav" aria-expanded="false">
+            <a href="#shop">Shop</a>
+            <a href="#whats-inside">What's Inside</a>
+            <a href="#discord">Discord</a>
+            <a href="#about">About</a>
+            <a href="#" class="btn btn-primary whop-cta mobile-whop-btn" data-product-price-cta>Get the $10 Pack &rarr;</a>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero container">
-        <div class="hero-grid">
-            <div class="hero-content">
-                <span class="hero-eyebrow">COMMUNITY STRATEGY & CONSULTING</span>
-                <h1>Your community deserves<br>better than guesswork.</h1>
-                <p>Thoughtful audits and practical strategy for online communities that want to improve, engage, and grow.</p>
-                <div class="hero-actions">
-                    <a href="#featured" class="btn btn-primary">Get a Community Audit &rarr;</a>
-                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+    <main>
+        <!-- 2. HERO -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="eyebrow">DIGITAL RESOURCES FOR DISCORD & COMMUNITIES</span>
+                    <h1>Everything you need to build a better Discord.</h1>
+                    <p class="subheading">One simple pack with the resources, templates and tools I've put together for building and managing online communities.</p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary btn-large whop-cta" data-product-price-cta>Get the $10 Pack &rarr;</a>
+                        <a href="#whats-inside" class="btn btn-outline btn-large">See what's inside</a>
+                    </div>
+                    <p class="hero-meta"><strong data-product-price>$10</strong> &middot; One-time purchase</p>
                 </div>
-            </div>
-            <div class="hero-visual-report">
-                <div class="audit-report">
-                    <div class="report-header">
-                        <span class="report-eyebrow">COMMUNITY AUDIT</span>
-                        <h4 class="report-title">Prepared for your community</h4>
-                    </div>
-                    
-                    <div class="report-health">
-                        <span class="health-label">OVERALL HEALTH</span>
-                        <div class="health-score">7.4 <span class="health-max">/ 10</span></div>
-                    </div>
-                    
-                    <div class="report-metrics">
-                        <div class="metric">
-                            <div class="metric-info">
-                                <span class="metric-name">Structure</span>
-                                <span class="metric-value">8.2</span>
-                            </div>
-                            <div class="metric-bar"><div class="bar-fill" style="width: 82%;"></div></div>
+                <div class="hero-visual">
+                    <div class="product-mockup">
+                        <div class="mockup-header">
+                            <h3 class="brand-name">BESWIN</h3>
+                            <p>COMMUNITY PACK</p>
                         </div>
-                        <div class="metric">
-                            <div class="metric-info">
-                                <span class="metric-name">Engagement</span>
-                                <span class="metric-value">6.4</span>
-                            </div>
-                            <div class="metric-bar"><div class="bar-fill" style="width: 64%;"></div></div>
+                        <div class="mockup-body">
+                            <ul class="mockup-list">
+                                <li>Discord</li>
+                                <li>Templates</li>
+                                <li>Resources</li>
+                                <li>Tools</li>
+                                <li>Bonuses</li>
+                            </ul>
                         </div>
-                        <div class="metric">
-                            <div class="metric-info">
-                                <span class="metric-name">Onboarding</span>
-                                <span class="metric-value">7.1</span>
-                            </div>
-                            <div class="metric-bar"><div class="bar-fill" style="width: 71%;"></div></div>
+                        <div class="mockup-footer">
+                            <span class="mockup-price" data-product-price>$10</span>
                         </div>
                     </div>
-                    
-                    <div class="report-opportunities">
-                        <span class="opp-label">KEY OPPORTUNITIES</span>
-                        <ul class="opp-list">
-                            <li><span class="opp-num">01</span> Improve member onboarding</li>
-                            <li><span class="opp-num">02</span> Simplify community structure</li>
-                            <li><span class="opp-num">03</span> Create stronger engagement loops</li>
-                        </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. TRUST / VALUE STRIP -->
+        <section class="trust-strip">
+            <div class="container">
+                <div class="strip-items">
+                    <div class="strip-item">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
+                        <span>One pack</span>
+                    </div>
+                    <div class="strip-item">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
+                        <span>One payment</span>
+                    </div>
+                    <div class="strip-item">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
+                        <span>Everything included</span>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Value Statement Section -->
-    <section class="value-strip container section">
-        <h2 class="value-statement">Thoughtful strategy for communities that want to grow with purpose.</h2>
-        <ul class="value-list">
-            <li>Community Audits</li>
-            <li>Discord Optimization</li>
-            <li>Growth Strategy</li>
-            <li>Community Consulting</li>
-        </ul>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-        <div class="container">
-            <h2>What we do.</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <span class="service-num">01</span>
-                    <h3>Community Audit</h3>
-                    <p>A detailed review of your community with clear, actionable recommendations.</p>
+        <!-- 4. WHAT'S INSIDE -->
+        <section id="whats-inside" class="whats-inside">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>What's inside the pack?</h2>
+                    <p class="section-subtitle">Everything currently included in the <span class="brand-name">BESWIN</span> pack, organized in one place.</p>
                 </div>
-                <div class="service-card">
-                    <span class="service-num">02</span>
-                    <h3>Discord Optimization</h3>
-                    <p>Improve your server structure, onboarding, organization, and member experience.</p>
-                </div>
-                <div class="service-card">
-                    <span class="service-num">03</span>
-                    <h3>Growth Strategy</h3>
-                    <p>Identify sustainable opportunities for engagement and long-term growth.</p>
-                </div>
-                <div class="service-card">
-                    <span class="service-num">04</span>
-                    <h3>Community Consulting</h3>
-                    <p>Personalized guidance for community owners and teams.</p>
+                <div class="features-grid" id="featuresGrid">
+                    <!-- Populated by script.js -->
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Featured Product Section -->
-    <section id="featured" class="featured section">
-        <div class="container">
-            <h2 style="font-size: 1.25rem; font-weight: 500; margin-bottom: 4rem;">Start with an audit.</h2>
-            <div class="featured-content">
-                <div class="featured-header">
-                    <h3>COMMUNITY AUDIT & GROWTH STRATEGY</h3>
-                    <span class="featured-price">$10</span>
-                    <p>A thoughtful review of your Discord server or online community with personalized recommendations.</p>
-                    <br>
-                    <a href="#" class="btn btn-primary" style="margin-top: 1rem;">Get Your Audit &rarr;</a>
+        <!-- 5. PRODUCT SHOWCASE -->
+        <section id="shop" class="product-showcase bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>One pack. Everything included.</h2>
                 </div>
-                <ul class="featured-checklist">
-                    <li>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Community structure review
-                    </li>
-                    <li>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Channel and category optimization
-                    </li>
-                    <li>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Roles and permissions recommendations
-                    </li>
-                    <li>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Member onboarding analysis
-                    </li>
-                    <li>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#171717" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Engagement strategy
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                <div class="main-product-card">
+                    <div class="product-card-visual">
+                        <div class="card-mockup-mini">
+                            <h3 class="brand-name">BESWIN</h3>
+                            <p>PACK</p>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-header">
+                            <h3 class="product-title" data-product-name>BESWIN Pack</h3>
+                            <span class="badge" data-product-badge>ONE-TIME PURCHASE</span>
+                        </div>
+                        <p class="product-desc" data-product-desc>A collection of Discord and community resources designed to help you get started faster.</p>
+                        
+                        <div class="product-includes">
+                            <h4>Includes:</h4>
+                            <ul class="includes-list" id="includesList">
+                                <!-- Populated by script.js -->
+                            </ul>
+                        </div>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="section">
-        <div class="container">
-            <div class="how-it-works-grid">
-                <div class="step">
-                    <span class="step-num">01</span>
-                    <p>Tell us about your community.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">02</span>
-                    <p>We take a closer look.</p>
-                </div>
-                <div class="step">
-                    <span class="step-num">03</span>
-                    <p>You receive practical recommendations.</p>
+                        <div class="product-footer">
+                            <span class="product-price-large" data-product-price>$10</span>
+                            <a href="#" class="btn btn-primary btn-large whop-cta" style="width: 100%;">Get the Pack &rarr;</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about">
-        <div class="container">
-            <h2>Community, thoughtfully.</h2>
-            <p style="margin-bottom: 2rem;">Community by Beswinjoe helps online communities build stronger foundations through thoughtful analysis, practical recommendations, and long-term thinking.</p>
-            <p>This is an independent initiative by Beswinjoe.</p>
-        </div>
-    </section>
+        <!-- 6. WHY $10? -->
+        <section class="pricing-rationale">
+            <div class="container text-center">
+                <h2>Simple pricing.</h2>
+                <p class="rationale-subtitle">No subscriptions. No confusing tiers. No unnecessary upsells.</p>
+                <div class="rationale-box">
+                    <p>Just one pack for:</p>
+                    <h3 class="rationale-price" data-product-price>$10</h3>
+                    <p class="rationale-footer">Buy once. Get what's included.</p>
+                </div>
+            </div>
+        </section>
 
-    <!-- Final CTA Section -->
-    <section class="final-cta">
-        <div class="container">
-            <h2 style="font-size: clamp(2.5rem, 5vw, 4rem);">Let's build something better.</h2>
-            <a href="#featured" class="btn btn-primary" style="margin-top: 1rem;">Get Started &rarr;</a>
-        </div>
-    </section>
+        <!-- 7. HOW IT WORKS -->
+        <section class="how-it-works bg-light">
+            <div class="container">
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <span class="step-num">01</span>
+                        <h3>Choose the pack</h3>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-num">02</span>
+                        <h3>Get it through Whop</h3>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-num">03</span>
+                        <h3>Start building</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Footer -->
+        <!-- 8. DISCORD SECTION -->
+        <section id="discord" class="discord-section">
+            <div class="container discord-container">
+                <div class="discord-content">
+                    <h2>Built for people who actually use Discord.</h2>
+                    <ul class="discord-features" id="discordFeatures">
+                        <!-- Populated by script.js -->
+                    </ul>
+                    <a href="#shop" class="btn btn-outline mt-md">Explore the Pack &rarr;</a>
+                </div>
+                <div class="discord-visual">
+                    <div class="discord-mockup">
+                        <div class="discord-sidebar">
+                            <div class="d-server"></div>
+                            <div class="d-server active"></div>
+                            <div class="d-server"></div>
+                        </div>
+                        <div class="discord-channels">
+                            <div class="d-header"></div>
+                            <div class="d-channel"></div>
+                            <div class="d-channel active"></div>
+                            <div class="d-channel"></div>
+                        </div>
+                        <div class="discord-main">
+                            <div class="d-header"></div>
+                            <div class="d-messages">
+                                <div class="d-msg"><div class="d-avatar"></div><div class="d-lines"><div class="d-line"></div></div></div>
+                                <div class="d-msg"><div class="d-avatar"></div><div class="d-lines"><div class="d-line short"></div><div class="d-line"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PREVIEW SECTION -->
+        <section class="preview-section bg-light">
+            <div class="container text-center">
+                <h2>Want to know what you're getting?</h2>
+                <p class="section-subtitle">Take a look at a preview of what's included before you buy.</p>
+                
+                <div class="preview-grid">
+                    <!-- Placeholders for actual screenshots -->
+                    <div class="preview-item">
+                        <div class="preview-img-placeholder">Preview Image 1</div>
+                    </div>
+                    <div class="preview-item">
+                        <div class="preview-img-placeholder">Preview Image 2</div>
+                    </div>
+                    <div class="preview-item">
+                        <div class="preview-img-placeholder">Preview Image 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. ABOUT -->
+        <section id="about" class="about-section">
+            <div class="container text-center about-container">
+                <h2>Built by Beswinjoe.</h2>
+                <p class="about-text"><span class="brand-name">BESWIN</span> is my collection of digital products, resources and projects built around Discord, communities, gaming and the things I'm working on.</p>
+                <div class="about-links">
+                    <a href="#" class="social-link" data-url-website>Website</a>
+                    <a href="#" class="social-link" data-url-github>GitHub</a>
+                    <a href="#" class="social-link" data-url-discord>Discord</a>
+                    <a href="#" class="social-link whop-cta">Whop</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. FAQ -->
+        <section class="faq-section bg-light">
+            <div class="container faq-container">
+                <h2 class="text-center">FAQ</h2>
+                <div class="faq-accordion" id="faqAccordion">
+                    <!-- Populated by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. FINAL CTA -->
+        <section class="final-cta text-center">
+            <div class="container">
+                <h2>Ready to build something better?</h2>
+                <p class="section-subtitle">Get the <span class="brand-name">BESWIN</span> Pack for <span data-product-price>$10</span>.</p>
+                <a href="#" class="btn btn-primary btn-large whop-cta" data-product-price-cta>Get the $10 Pack &rarr;</a>
+                <p class="final-cta-meta mt-sm">Sold through Whop</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 13. FOOTER -->
     <footer>
         <div class="container footer-container">
-            <div class="logo-group">
-                <span class="logo">COMMUNITY</span>
-                <span class="logo-sub">by Beswinjoe</span>
+            <div class="footer-brand">
+                <h3 class="brand-name">BESWIN</h3>
+                <p>Digital products for Discord, communities & creators.</p>
+                <p class="copyright">&copy; 2026 Beswinjoe.</p>
             </div>
-            <nav class="footer-nav">
-                <a href="#services">Services</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="#about">About</a>
-                <a href="https://beswinjoe.me" target="_blank">Beswinjoe.me</a>
-            </nav>
-            <span class="copyright">&copy; 2026 Community by Beswinjoe.</span>
+            <div class="footer-links-group">
+                <div class="footer-column">
+                    <a href="#shop">Shop</a>
+                    <a href="#whats-inside">What's Inside</a>
+                    <a href="#discord">Discord</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#" class="whop-cta">Whop</a>
+                    <a href="#" data-url-github>GitHub</a>
+                    <a href="#" data-url-website>Website</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
         </div>
     </footer>
 
