@@ -10,7 +10,7 @@ const shopConfig = {
         name: "BESWIN Pack",
         price: "$10",
         description: "A collection of Discord and community resources designed to help you get started faster.",
-        whopUrl: "YOUR_WHOP_PRODUCT_URL",
+        whopUrl: "https://whop.com/checkout/plan_p7K4X8ciY5xaA",
         badge: "ONE-TIME PURCHASE",
         categories: [
             {
