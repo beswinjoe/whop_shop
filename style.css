@@ -180,6 +180,37 @@ a {
 
 .logo {
     font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+
+.mockup-logo-img {
+    height: 48px;
+    width: auto;
+    display: block;
+    mix-blend-mode: screen;
+    margin: 0 auto;
+}
+
+.inline-logo-img {
+    height: 1.2em;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.footer-logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
+    margin-bottom: 8px;
 }
 
 .nav-links {
