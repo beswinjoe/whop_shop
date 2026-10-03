@@ -1,398 +1,331 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BESWIN Pack — Discord Templates & Community Resources</title>
-    <meta name="description" content="Ready-to-use Discord templates, moderation resources, bot configurations and community tools. Get the BESWIN Pack for $10.">
-    <meta property="og:title" content="BESWIN Pack — Discord Templates & Community Resources">
-    <meta property="og:description" content="Ready-to-use Discord templates, moderation resources, bot configurations and community tools. One-time purchase for $10.">
-    <meta property="og:type" content="website">
+    <title>Beswin Posters — A4 Wall Poster Printing</title>
+    <meta name="description" content="Premium A4 wall poster printing in colour, B&amp;W and custom designs. Order your poster from Beswin Posters.">
     <meta name="theme-color" content="#ffffff">
-    
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Beswin Posters">
+    <meta property="og:title" content="Beswin Posters — A4 Wall Poster Printing">
+    <meta property="og:description" content="Premium A4 wall poster printing in colour, B&amp;W and custom designs. Order your poster from Beswin Posters.">
+    <meta property="og:locale" content="en_IN">
+    <!-- Replace with an absolute URL (e.g. https://yourdomain.com/beswin-logo.png) once the site has a domain -->
+    <meta property="og:image" content="beswin-logo.png">
+    <meta property="og:image:alt" content="Beswin Posters logo">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Beswin Posters — A4 Wall Poster Printing">
+    <meta name="twitter:description" content="Premium A4 wall poster printing in colour, B&amp;W and custom designs. Order your poster from Beswin Posters.">
+    <meta name="twitter:image" content="beswin-logo.png">
+
     <link rel="icon" type="image/png" href="beswin-logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="beswin-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Navigation -->
-    <header class="navbar">
+    <header class="navbar" id="top">
         <div class="nav-container">
-            <a href="#" class="logo"><img src="beswin-logo.png" alt="BESWIN" class="logo-img"></a>
-            <nav class="nav-links">
-                <a href="#shop">Shop</a>
-                <a href="#whats-inside">What's Inside</a>
-                <a href="#preview">Preview</a>
-                <a href="#faq">FAQ</a>
+            <a href="#top" class="logo" id="navLogo" aria-label="Beswin Posters — back to top">
+                <span class="logo-mark"><img src="beswin-logo.png" alt="" class="logo-img" width="40" height="40"></span>
+                <span class="logo-text"><span data-biz="name">Beswin Posters</span></span>
+            </a>
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#shop" id="navShop">Shop</a>
+                <a href="#how-it-works" id="navHow">How It Works</a>
+                <a href="#custom" id="navCustom">Custom Design</a>
+                <a href="#faq" id="navFaq">FAQ</a>
             </nav>
             <div class="nav-right">
-                <a href="#" class="btn btn-primary whop-cta" data-product-price-cta>Get the Pack — $10</a>
-                <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                <a href="#shop" class="btn btn-primary" id="navOrderBtn">Order a Poster</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
                     <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M3 12h18M3 6h18M3 18h18"></path></svg>
                 </button>
             </div>
         </div>
-        <nav class="mobile-nav" aria-label="Mobile navigation" aria-expanded="false">
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" aria-expanded="false">
             <a href="#shop">Shop</a>
-            <a href="#whats-inside">What's Inside</a>
-            <a href="#preview">Preview</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#custom">Custom Design</a>
             <a href="#faq">FAQ</a>
-            <a href="#" class="btn btn-primary whop-cta mobile-whop-btn" data-product-price-cta>Get the Pack — $10</a>
+            <a href="#shop" class="btn btn-primary mobile-cta-btn" id="mobileOrderBtn">Order a Poster</a>
         </nav>
     </header>
 
     <main>
         <!-- Hero -->
-        <section class="hero">
+        <section class="hero" aria-labelledby="heroTitle">
             <div class="container hero-container">
                 <div class="hero-content">
-                    <span class="eyebrow">BESWIN PACK</span>
-                    <h1>The Discord pack I wish I had when I started building communities.</h1>
-                    <p class="subheading">Ready-to-use server templates, moderation resources, bot configurations, checklists and more — all in one simple pack.</p>
+                    <span class="eyebrow"><span data-biz="name">Beswin Posters</span> · <span data-print="size">A4</span> Print Studio</span>
+                    <h1 id="heroTitle">Turn Your Ideas Into <em>Posters</em></h1>
+                    <p class="subheading">Premium A4 wall poster printing for rooms, businesses, events, gifts and more.</p>
                     <div class="hero-actions">
-                        <a href="#" class="btn btn-primary btn-large whop-cta" data-product-price-cta>Get the Pack — $10</a>
-                        <a href="#whats-inside" class="btn btn-outline btn-large">See what's inside</a>
+                        <a href="#shop" class="btn btn-primary btn-large" id="heroOrderBtn">
+                            Order a Poster
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </a>
+                        <a href="#custom" class="btn btn-outline btn-large" id="heroCustomBtn">Custom Design</a>
                     </div>
-                    <p class="hero-meta"><strong data-product-price>$10</strong> · One-time purchase</p>
+                    <p class="hero-meta">From <strong data-price="bw">₹30</strong> per A4 print · Order easily on WhatsApp</p>
                 </div>
-                <div class="hero-visual">
-                    <div class="product-mockup">
-                        <div class="mockup-header">
-                            <img src="beswin-logo.png" alt="BESWIN" class="mockup-logo-img">
-                            <p>COMMUNITY PACK</p>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="poster-wall">
+                        <div class="hero-poster hero-poster--back">
+                            <div class="poster"><img src="images/posters/discipline.jpg" alt="Study poster" loading="eager" class="poster-photo"></div>
                         </div>
-                        <div class="mockup-body">
-                            <ul class="mockup-list">
-                                <li>
-                                    <span class="mockup-icon">📋</span>
-                                    Discord Templates
-                                </li>
-                                <li>
-                                    <span class="mockup-icon">🛡</span>
-                                    Moderation Resources
-                                </li>
-                                <li>
-                                    <span class="mockup-icon">⚙</span>
-                                    Bot Configurations
-                                </li>
-                                <li>
-                                    <span class="mockup-icon">✓</span>
-                                    Community Checklists
-                                </li>
-                                <li>
-                                    <span class="mockup-icon">+</span>
-                                    Bonus Materials
-                                </li>
-                            </ul>
+                        <div class="hero-poster hero-poster--main">
+                            <span class="tape"></span>
+                            <span class="dim dim--h"><span data-print="width">210 mm</span></span>
+                            <span class="dim dim--v"><span data-print="height">297 mm</span></span>
+                            <div class="poster poster--glossy"><img src="images/posters/good-things-take-time.jpg" alt="Room poster" loading="eager" class="poster-photo"></div>
                         </div>
-                        <div class="mockup-footer">
-                            <span class="mockup-price" data-product-price>$10</span>
-                            <span class="mockup-badge">ONE-TIME</span>
+                        <div class="hero-poster hero-poster--front">
+                            <div class="poster poster--glossy"><img src="images/posters/event.jpg" alt="Event poster" loading="eager" class="poster-photo"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Trust Strip -->
-        <section class="trust-strip">
+        <!-- Spec Strip -->
+        <section class="spec-strip" aria-label="Print summary">
             <div class="container">
-                <div class="strip-items">
-                    <div class="strip-item">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
-                        <span>One-time purchase</span>
+                <dl class="spec-items">
+                    <div class="spec-item">
+                        <dt>Size</dt>
+                        <dd><span data-print="size">A4</span> · <span data-print="dimensions">210 × 297 mm</span></dd>
                     </div>
-                    <div class="strip-item">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
-                        <span>Instant access through Whop</span>
+                    <div class="spec-item">
+                        <dt>Black &amp; White</dt>
+                        <dd><span data-price="bw">₹30</span> per print</dd>
                     </div>
-                    <div class="strip-item">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg>
-                        <span>Everything in one pack</span>
+                    <div class="spec-item">
+                        <dt>Glossy Colour</dt>
+                        <dd><span data-price="colour">₹80</span> per print</dd>
                     </div>
-                </div>
+                    <div class="spec-item">
+                        <dt>Ordering</dt>
+                        <dd>Via WhatsApp</dd>
+                    </div>
+                </dl>
             </div>
         </section>
 
-        <!-- What's Inside -->
-        <section id="whats-inside" class="whats-inside">
+        <!-- Shop / Products -->
+        <section id="shop" class="shop-section" aria-labelledby="shopTitle">
             <div class="container">
-                <div class="section-header text-center">
-                    <h2>What's inside the pack</h2>
-                    <p class="section-subtitle">Everything included in the <img src="beswin-logo.png" alt="BESWIN" class="inline-logo-img"> Pack, organized and ready to use.</p>
+                <div class="section-header split-header reveal">
+                    <div>
+                        <span class="section-index">01 / Shop</span>
+                        <h2 id="shopTitle">Choose Your Print</h2>
+                    </div>
+                    <p class="section-lead">Three simple options. Every poster is printed on <span data-print="size">A4</span> (<span data-print="dimensions">210 × 297 mm</span>) — the price shown is the price per print.</p>
                 </div>
-                <div class="features-grid" id="featuresGrid">
-                    <!-- Populated by script.js -->
+
+                <div class="product-grid" id="productGrid">
+                    <!-- Populated by script.js from posterConfig.products -->
                 </div>
+
+                <p class="shop-note reveal">Need more than one poster? Message us on <a href="#" data-link="whatsapp" class="text-link">WhatsApp</a> with your list and we'll confirm your order.</p>
             </div>
         </section>
 
-        <!-- Preview Section -->
-        <section id="preview" class="preview-section bg-light">
-            <div class="container text-center">
-                <h2>See what you're getting</h2>
-                <p class="section-subtitle">A look at the kind of resources included in the pack.</p>
-                
-                <div class="preview-grid">
-                    <!-- Server Structure Preview -->
-                    <div class="preview-item">
-                        <div class="preview-mockup">
-                            <div class="preview-mockup-title">Server Structure</div>
-                            <div class="pm-channels">
-                                <div class="pm-category">Information</div>
-                                <div class="pm-channel active"><span class="pm-channel-hash">#</span> welcome</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> rules</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> announcements</div>
-                                <div class="pm-category">Community</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> general</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> introductions</div>
-                                <div class="pm-category">Support</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> help</div>
-                                <div class="pm-channel"><span class="pm-channel-hash">#</span> tickets</div>
-                            </div>
-                        </div>
-                        <div class="preview-caption">
-                            <h4>Server Structure</h4>
-                            <p>A clean starting point for organizing your community.</p>
-                        </div>
-                    </div>
+        <!-- Custom Design -->
+        <section id="custom" class="custom-section" aria-labelledby="customTitle">
+            <div class="container custom-container">
+                <div class="custom-content reveal">
+                    <span class="section-index">02 / Custom Design</span>
+                    <h2 id="customTitle">Have Your Own <em>Design?</em></h2>
+                    <p class="custom-lead">Send us your text, photos, logo or reference design. We'll prepare it for printing and turn it into a physical A4 poster.</p>
 
-                    <!-- Moderation Checklist Preview -->
-                    <div class="preview-item">
-                        <div class="preview-mockup">
-                            <div class="preview-mockup-title">Moderation Checklist</div>
-                            <div class="pm-checklist">
-                                <div class="pm-check-item"><span class="pm-checkbox checked"></span> Set up server rules</div>
-                                <div class="pm-check-item"><span class="pm-checkbox checked"></span> Configure automod</div>
-                                <div class="pm-check-item"><span class="pm-checkbox checked"></span> Create staff roles</div>
-                                <div class="pm-check-item"><span class="pm-checkbox"></span> Set up logging channel</div>
-                                <div class="pm-check-item"><span class="pm-checkbox"></span> Write moderation guide</div>
-                                <div class="pm-check-item"><span class="pm-checkbox"></span> Configure verification</div>
-                                <div class="pm-check-item"><span class="pm-checkbox"></span> Set up ticket system</div>
-                            </div>
-                        </div>
-                        <div class="preview-caption">
-                            <h4>Moderation Checklist</h4>
-                            <p>Step-by-step setup for server moderation.</p>
-                        </div>
-                    </div>
-
-                    <!-- Bot Configuration Preview -->
-                    <div class="preview-item">
-                        <div class="preview-mockup">
-                            <div class="preview-mockup-title">Bot Configuration</div>
-                            <div class="pm-config">
-                                <div class="pm-config-line"><span class="pm-key">prefix:</span> <span class="pm-val">"!"</span></div>
-                                <div class="pm-config-line"><span class="pm-key">welcome:</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">enabled:</span> <span class="pm-val">true</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">channel:</span> <span class="pm-val">#welcome</span></div>
-                                <div class="pm-config-line"><span class="pm-key">automod:</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">spam:</span> <span class="pm-val">true</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">links:</span> <span class="pm-val">whitelist</span></div>
-                                <div class="pm-config-line"><span class="pm-key">logging:</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">channel:</span> <span class="pm-val">#mod-log</span></div>
-                                <div class="pm-config-line">&nbsp;&nbsp;<span class="pm-key">events:</span> <span class="pm-val">all</span></div>
-                            </div>
-                        </div>
-                        <div class="preview-caption">
-                            <h4>Bot Configuration</h4>
-                            <p>Resources to speed up bot and server setup.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Value Section -->
-        <section class="value-section">
-            <div class="container">
-                <div class="value-container text-center">
-                    <h2>Everything you need, without the subscription.</h2>
-                    <ul class="value-list" id="valueList">
-                        <!-- Populated by script.js -->
+                    <ul class="custom-inputs" aria-label="What you can send">
+                        <li>Text</li>
+                        <li>Photos</li>
+                        <li>Logo</li>
+                        <li>Reference design</li>
                     </ul>
-                    <div class="value-price">
-                        <span class="value-price-amount" data-product-price>$10</span>
-                        <p class="value-price-note">One-time purchase</p>
-                        <a href="#" class="btn btn-primary btn-large whop-cta">Get the Pack →</a>
+
+                    <div class="custom-price">
+                        <span class="custom-price-amount" data-price="custom">₹120</span>
+                        <span class="custom-price-note">Design preparation + premium colour glossy print</span>
                     </div>
+
+                    <a href="#" class="btn btn-light btn-large" data-order="custom" id="customRequestBtn">
+                        Request Custom Design
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
                 </div>
-            </div>
-        </section>
 
-        <!-- Product Showcase -->
-        <section id="shop" class="product-showcase bg-light">
-            <div class="container">
-                <div class="main-product-card">
-                    <div class="product-card-visual">
-                        <div class="card-mockup-mini">
-                            <img src="beswin-logo.png" alt="BESWIN" class="mockup-logo-img">
-                            <p>PACK</p>
+                <div class="custom-process reveal">
+                    <div class="custom-visual" aria-hidden="true">
+                        <div class="custom-visual-poster">
+                            <div class="poster"><img src="images/posters/custom.jpg" alt="Custom design template" loading="lazy" class="poster-photo"></div>
                         </div>
                     </div>
-                    <div class="product-card-content">
-                        <div>
-                            <div class="product-header">
-                                <h3 class="product-title" data-product-name>BESWIN Pack</h3>
-                                <span class="badge" data-product-badge>ONE-TIME PURCHASE</span>
-                            </div>
-                            <p class="product-desc" data-product-desc>A collection of Discord and community resources designed to help you get started faster.</p>
-                            
-                            <div class="product-includes">
-                                <h4>Includes</h4>
-                                <ul class="includes-list" id="includesList">
-                                    <!-- Populated by script.js -->
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="product-footer">
-                            <span class="product-price-large" data-product-price>$10</span>
-                            <a href="#" class="btn btn-primary btn-large whop-cta" style="width: 100%;">Get the Pack →</a>
-                        </div>
-                    </div>
+                    <ol class="process-list">
+                        <li class="process-step">
+                            <span class="process-num">01</span>
+                            <span class="process-text">Send your idea</span>
+                        </li>
+                        <li class="process-step">
+                            <span class="process-num">02</span>
+                            <span class="process-text">We prepare the design</span>
+                        </li>
+                        <li class="process-step">
+                            <span class="process-num">03</span>
+                            <span class="process-text">We print it</span>
+                        </li>
+                        <li class="process-step">
+                            <span class="process-num">04</span>
+                            <span class="process-text">Get your poster</span>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </section>
 
         <!-- How It Works -->
-        <section class="how-it-works">
+        <section id="how-it-works" class="how-it-works" aria-labelledby="howTitle">
             <div class="container">
-                <div class="how-it-works-header">
-                    <h2>How it works</h2>
+                <div class="section-header split-header reveal">
+                    <div>
+                        <span class="section-index">03 / Process</span>
+                        <h2 id="howTitle">How It Works</h2>
+                    </div>
+                    <p class="section-lead">No accounts, no complicated forms. Just pick a print and send us your file.</p>
                 </div>
-                <div class="steps-grid">
-                    <div class="step-card">
+                <ol class="steps-grid">
+                    <li class="step-card reveal">
                         <span class="step-num">01</span>
-                        <h3>Purchase</h3>
-                        <p>Checkout securely through Whop.</p>
-                    </div>
-                    <div class="step-card">
+                        <h3>Choose</h3>
+                        <p>Pick B&amp;W, premium colour, or custom design.</p>
+                    </li>
+                    <li class="step-card reveal">
                         <span class="step-num">02</span>
-                        <h3>Get access</h3>
-                        <p>Receive access to the BESWIN Pack.</p>
-                    </div>
-                    <div class="step-card">
+                        <h3>Send</h3>
+                        <p>Send your image, text, logo or reference through WhatsApp.</p>
+                    </li>
+                    <li class="step-card reveal">
                         <span class="step-num">03</span>
-                        <h3>Start building</h3>
-                        <p>Use the templates, resources and configurations in your own community.</p>
+                        <h3>Print</h3>
+                        <p>We print your poster on the selected paper.</p>
+                    </li>
+                    <li class="step-card reveal">
+                        <span class="step-num">04</span>
+                        <h3>Receive</h3>
+                        <p>Get your finished poster.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Poster Showcase -->
+        <section id="showcase" class="showcase-section bg-light" aria-labelledby="showcaseTitle">
+            <div class="container">
+                <div class="section-header split-header reveal">
+                    <div>
+                        <span class="section-index">04 / Ideas</span>
+                        <h2 id="showcaseTitle">A Poster for Every Wall</h2>
                     </div>
+                    <p class="section-lead">Sample layouts to show what's possible. Send us your own idea in any of these styles — or something completely different.</p>
+                </div>
+                <div class="showcase-grid" id="showcaseGrid">
+                    <!-- Populated by script.js from posterConfig.showcase -->
                 </div>
             </div>
         </section>
 
-        <!-- Discord Section -->
-        <section id="discord" class="discord-section bg-light">
-            <div class="container discord-container">
-                <div class="discord-content">
-                    <h2>Built for people who actually use Discord.</h2>
-                    <p>Start with a cleaner structure instead of building everything from scratch.</p>
-                    <ul class="discord-features" id="discordFeatures">
-                        <!-- Populated by script.js -->
-                    </ul>
+        <!-- Why Beswin Posters -->
+        <section id="why" class="why-section" aria-labelledby="whyTitle">
+            <div class="container why-container">
+                <div class="why-intro reveal">
+                    <span class="section-index">05 / Why Us</span>
+                    <h2 id="whyTitle">Why <span data-biz="name">Beswin Posters</span></h2>
+                    <p class="section-lead">A small, independent print service focused on doing simple things well.</p>
                 </div>
-                <div class="discord-visual">
-                    <div class="discord-mockup">
-                        <div class="discord-sidebar">
-                            <div class="d-server"></div>
-                            <div class="d-server active"></div>
-                            <div class="d-server"></div>
-                        </div>
-                        <div class="discord-channels">
-                            <div class="d-server-name">My Server</div>
-                            <div class="d-category">Information</div>
-                            <div class="d-channel"><span class="d-channel-hash">#</span> welcome</div>
-                            <div class="d-channel active"><span class="d-channel-hash">#</span> rules</div>
-                            <div class="d-channel"><span class="d-channel-hash">#</span> announcements</div>
-                            <div class="d-category">Community</div>
-                            <div class="d-channel"><span class="d-channel-hash">#</span> general</div>
-                            <div class="d-channel"><span class="d-channel-hash">#</span> support</div>
-                        </div>
-                        <div class="discord-main">
-                            <div class="d-header"><span class="d-channel-hash">#</span> rules</div>
-                            <div class="d-messages">
-                                <div class="d-msg">
-                                    <div class="d-avatar"></div>
-                                    <div class="d-msg-content">
-                                        <div class="d-msg-name">Server Bot</div>
-                                        <div class="d-msg-text">Welcome to the server. Please read the rules below before chatting.</div>
-                                    </div>
-                                </div>
-                                <div class="d-msg">
-                                    <div class="d-avatar"></div>
-                                    <div class="d-msg-content">
-                                        <div class="d-msg-name">Server Bot</div>
-                                        <div class="d-msg-text">1. Be respectful · 2. No spam · 3. Follow Discord TOS</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About -->
-        <section id="about" class="about-section">
-            <div class="container text-center about-container">
-                <h2>Built by Beswinjoe.</h2>
-                <p class="about-text"><img src="beswin-logo.png" alt="BESWIN" class="inline-logo-img"> is my collection of digital products, resources and projects built around Discord, communities, gaming and the things I'm working on.</p>
-                <div class="about-links">
-                    <a href="#" class="social-link" data-url-website>Website</a>
-                    <a href="#" class="social-link" data-url-github>GitHub</a>
-                    <a href="#" class="social-link" data-url-discord>Discord</a>
-                    <a href="#" class="social-link whop-cta">Whop</a>
-                </div>
+                <ul class="why-list" id="whyList">
+                    <!-- Populated by script.js from posterConfig.highlights -->
+                </ul>
             </div>
         </section>
 
         <!-- FAQ -->
-        <section id="faq" class="faq-section bg-light">
+        <section id="faq" class="faq-section bg-light" aria-labelledby="faqTitle">
             <div class="container faq-container">
-                <h2 class="text-center">Frequently asked questions</h2>
+                <div class="faq-intro reveal">
+                    <span class="section-index">06 / FAQ</span>
+                    <h2 id="faqTitle">Frequently Asked Questions</h2>
+                    <p class="section-lead">Can't find your answer? Email <a href="#" data-link="email" class="text-link" data-biz="email">beswinjoewrk@gmail.com</a> or message us on <a href="#" data-link="whatsapp" class="text-link">WhatsApp</a>.</p>
+                </div>
                 <div class="faq-accordion" id="faqAccordion">
                     <!-- Populated by script.js -->
                 </div>
             </div>
         </section>
 
-        <!-- Final CTA -->
-        <section class="final-cta text-center">
-            <div class="container">
-                <h2>Stop building your Discord from scratch.</h2>
-                <p class="section-subtitle">Get the <img src="beswin-logo.png" alt="BESWIN" class="inline-logo-img"> Pack and start with the systems, templates and resources you need.</p>
-                <p class="final-cta-price"><strong data-product-price>$10</strong> · One-time purchase</p>
-                <a href="#" class="btn btn-primary btn-large whop-cta">Get the Pack →</a>
-                <p class="final-cta-meta">Sold through Whop</p>
+        <!-- Final CTA / Contact -->
+        <section id="contact" class="final-cta" aria-labelledby="ctaTitle">
+            <div class="container final-cta-container reveal">
+                <h2 id="ctaTitle">Ready to <em>Print?</em></h2>
+                <p class="final-cta-sub">Send us your idea and let's turn it into a poster.</p>
+                <div class="final-cta-actions">
+                    <a href="#" class="btn btn-primary btn-large" data-order="general" id="ctaWhatsappBtn">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.23-.16-.48-.29z"/></svg>
+                        Order on WhatsApp
+                    </a>
+                    <a href="#" class="btn btn-outline btn-large" data-link="instagram" id="ctaInstagramBtn">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>
+                        Instagram
+                    </a>
+                </div>
+                <ul class="contact-details">
+                    <li><span class="contact-label">WhatsApp</span><a href="#" data-link="whatsapp" data-biz="whatsappDisplay" id="ctaWhatsappText">7538856797</a></li>
+                    <li><span class="contact-label">Instagram</span><a href="#" data-link="instagram" data-biz="instagramHandle" id="ctaInstagramText">@beswinjoee</a></li>
+                    <li><span class="contact-label">Email</span><a href="#" data-link="email" data-biz="email" id="ctaEmailText">beswinjoewrk@gmail.com</a></li>
+                </ul>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <div class="container footer-container">
             <div class="footer-brand">
-                <img src="beswin-logo.png" alt="BESWIN" class="footer-logo-img">
-                <p>Digital products for Discord, communities & creators.</p>
-                <p class="copyright">&copy; 2026 Beswinjoe.</p>
+                <span class="logo-mark logo-mark--footer"><img src="beswin-logo.png" alt="Beswin Posters logo" width="48" height="48"></span>
+                <div>
+                    <p class="footer-name" data-biz="name">Beswin Posters</p>
+                    <p class="footer-tagline" data-biz="tagline">A4 Wall Poster Printing</p>
+                </div>
             </div>
             <div class="footer-links-group">
                 <div class="footer-column">
-                    <a href="#shop">Shop</a>
-                    <a href="#whats-inside">What's Inside</a>
-                    <a href="#preview">Preview</a>
+                    <span class="footer-heading">Shop</span>
+                    <a href="#shop">Prints</a>
+                    <a href="#custom">Custom Design</a>
+                    <a href="#how-it-works">How It Works</a>
                     <a href="#faq">FAQ</a>
                 </div>
                 <div class="footer-column">
-                    <a href="#" data-url-website>Website</a>
-                    <a href="#" data-url-github>GitHub</a>
-                    <a href="#" data-url-discord>Discord</a>
-                    <a href="#" class="whop-cta">Whop</a>
+                    <span class="footer-heading">Contact</span>
+                    <a href="#" data-link="whatsapp">WhatsApp: <span data-biz="whatsappDisplay">7538856797</span></a>
+                    <a href="#" data-link="instagram">Instagram: <span data-biz="instagramHandle">@beswinjoee</span></a>
+                    <a href="#" data-link="email">Email: <span data-biz="email">beswinjoewrk@gmail.com</span></a>
                 </div>
             </div>
+        </div>
+        <div class="container footer-bottom">
+            <p class="copyright">&copy; <span id="footerYear">2026</span> <span data-biz="name">Beswin Posters</span>. Printed in <span data-biz="country">India</span>.</p>
         </div>
     </footer>
 
