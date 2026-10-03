@@ -48,7 +48,7 @@ const posterConfig = {
         colour: {
             name: "Premium Colour Glossy A4 Print",
             label: "Glossy Colour",
-            price: 80,
+            price: 50,
             unit: "per A4 print",
             description: "Full-colour printing on glossy paper for rich, vivid wall posters.",
             features: [
@@ -63,7 +63,7 @@ const posterConfig = {
         custom: {
             name: "Custom Design + Premium Colour Print",
             label: "Design + Print",
-            price: 120,
+            price: 80,
             unit: "per A4 poster",
             description: "Don't have a print-ready file? We design it from your idea, then print it in premium glossy colour.",
             includes: ["Design preparation", "Glossy colour print"],
