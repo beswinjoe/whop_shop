@@ -505,7 +505,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
         }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-        revealEls.forEach((el) => observer.observe(el));
+        revealEls.forEach((el) => {
+            el.classList.add("reveal-init");
+            observer.observe(el);
+        });
     }
 });
 
